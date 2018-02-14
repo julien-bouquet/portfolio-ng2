@@ -1,7 +1,6 @@
-$main-color: rgba(242,183,5,1);
-$second-color: rgba(1,1,1,1);
+$main-color: rgba(242,163,15,1);
 
-.container {
+.container-nav-summary {
   background: url("../../assets/background-header.jpg") no-repeat 0px -100px;
   background-size: 100%;
   height: 30%;
@@ -19,14 +18,17 @@ $second-color: rgba(1,1,1,1);
       font-size: 20px;
     }
   }
+}
 
-  .title {
+.about {
+  background-color: rgba(36,116,166,1);
+  color: rgba(255,255,255,1);
+
+  p {
+    font-size: 17px;
     margin: auto;
-    width: 50%;
-
-    h1, h3 {
-      color: rgba(255,255,255,1);
-      text-align: center;
-    }
+    padding: 25px;
+    text-align: justify;
+    width: 66%;
   }
 }
