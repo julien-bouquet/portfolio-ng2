@@ -1,0 +1,54 @@
+$border: 15px;
+
+.content {
+  background-color: rgba(255,255,255,1);
+  display: flex;
+  margin-bottom: 15px;
+  padding-top: $border;
+
+  .logo {
+    flex: 1;
+    margin: auto;
+    padding: $border;
+
+    img {
+      width: 100%;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .container {
+    flex: 3;
+    flex-direction: column;
+    margin-left: $border;
+
+    .summary {
+      flex: 1;
+
+      .duration, .job {
+        font-weight: bold;
+      }
+
+      .job {
+        margin-top: 5px;
+      }
+    }
+
+    .details {
+      margin-top: 5px;
+      flex: 3;
+    }
+
+    .underline {
+      text-decoration: underline;
+    }
+  }
+
+}
+
+.row-inverse {
+  flex-direction: row-reverse;
+}
