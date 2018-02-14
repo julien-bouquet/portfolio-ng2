@@ -1,0 +1,32 @@
+$main-color: rgba(242,183,5,1);
+$second-color: rgba(1,1,1,1);
+
+.container {
+  background: url("../../assets/background-header.jpg") no-repeat 0px -100px;
+  background-size: 100%;
+  height: 30%;
+  opacity: 0.8;
+
+  .summary {
+    color: $main-color;
+    font-size: 25px;
+    flex: 1;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .title {
+    margin: auto;
+    width: 50%;
+
+    h1, h3 {
+      color: rgba(255,255,255,1);
+      text-align: center;
+    }
+  }
+}

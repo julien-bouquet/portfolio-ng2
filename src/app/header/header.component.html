@@ -1,0 +1,7 @@
+<div class="container">
+  <app-nav [user]="user"></app-nav>
+  <div class="summary">
+    <h1> {{ user.firstName | uppercase }} {{ user.lastName | uppercase}} </h1>
+    <h2>{{ user.job }}</h2>
+  </div>
+</div>

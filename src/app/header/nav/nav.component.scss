@@ -1,0 +1,30 @@
+.content {
+  background: rgba(0,0,0,0.2);
+  color: rgba(255,255,255,1);;
+  display: flex;
+  flex-direction: row;
+
+  a {
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: rgba(255,255,255, 0.5);
+  }
+
+  .left {
+    flex: 1;
+    margin: auto 25px;
+  }
+
+  .right {
+    flex: 1;
+    font-size: 1.5em;
+    margin: 25px;
+    text-align: right;
+
+    i {
+      margin: 10px;
+    }
+  }
+}
