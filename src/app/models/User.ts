@@ -8,6 +8,7 @@ export class User {
   idGitHub?: string;
   idTwitter?: string;
   idStackOverFlow?: string;
+  idLinkedIn?: string;
 
   constructor() {
 
