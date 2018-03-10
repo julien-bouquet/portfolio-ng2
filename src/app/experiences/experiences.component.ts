@@ -24,9 +24,10 @@ export class ExperiencesComponent implements OnInit {
       '- Vision de la qualité de code (TU-Sonar) <br /> ' +
       '- Vision des saisies des utilisateurs <br /> ' +
       '- Visions des statistiques globales du service <br />' +
-      'Cette application est basée sur JIRA et Kiosk. Les équipes et les clients se base sur ' +
+      'Cette application est basée sur JIRA et Kiosk. Les équipes et les clients se basent sur ' +
       'cette dernière pour suivre l\'avancement de leurs développements et leurs projets. ',
-      technology: ['AngularJS', 'AngularX', 'JEE', 'JIRA', 'PostgreSQL'],
+      technology: ['AngularJS', 'Angular', 'J2E', 'PostgreSQL', 'MyBatis'],
+      tools: ['Git', 'Sonar', 'Jenkins2', 'JIRA'],
       methodology: ['Srum', 'Kanban']
     },
     {
@@ -34,12 +35,12 @@ export class ExperiencesComponent implements OnInit {
       urlLogo: '/assets/chru-logo.png',
       startDate: moment('20150901', 'YYYYMMDD'),
       endDate: moment('20160831', 'YYYYMMDD'),
-      job: 'Développeur Web',
+      job: 'Développeur Web (Alternance)',
       summary: 'Développement d\'une application web',
-      description: 'Développement d\'une application de gestion de projet, avec intégration de fichier Excel. <br />' +
-      '- Découverte de la BI, avec BIRT, Business Object, Big Data',
-      technology: ['JEE', 'Struts(Framework)', 'Hibernate', 'Business Object', 'BIRT', 'Oracle', 'PostgreSQL'],
-      methodology: ['Cicle en V']
+      description: '- Développement d\'une application de gestion de projet, avec intégration de fichier Excel. Elle permet d’afficher ' +
+      'le suvi des copils avec différents graphique fait sous BIRT <br />' +
+      '- Découverte de la BI avec Business Object, Génio.',
+      technology: ['J2E', 'Struts', 'Hibernate', 'PostgreSQL']
     },
     {
       company: 'Econocom',
@@ -56,7 +57,7 @@ export class ExperiencesComponent implements OnInit {
       urlLogo: '/assets/chru-logo.png',
       startDate: moment('20150101', 'YYYYMMDD'),
       endDate: moment('20160227', 'YYYYMMDD'),
-      job: 'Développeur Web',
+      job: 'Développeur Web (Stagiaire) ',
       summary: 'Développement d\'une application web',
       description: 'Développement d’un site intranet pour faire de la gestion de projets.',
       technology: ['PHP', 'MySQL', 'HTML5', 'CSS3', 'Javascript', 'JQuery'],

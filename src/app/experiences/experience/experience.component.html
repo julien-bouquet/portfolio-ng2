@@ -19,6 +19,12 @@
           {{ techno }}{{ isLast ? '.' : ', ' }}
       </span>
     </div>
+    <div *ngIf="experience.tools">
+      <span class="underline">Outils utilisés :</span>
+      <span *ngFor="let tool of experience.tools; let isLast=last">
+          {{ tool }}{{ isLast ? '.' : ', ' }}
+      </span>
+    </div>
     <div *ngIf="experience.methodology">
       <span class="underline">Méthodologie :</span>
       <span *ngFor="let methodo of experience.methodology; let isLast=last">

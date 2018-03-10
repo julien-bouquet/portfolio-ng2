@@ -10,6 +10,7 @@ export class Experience {
   summary ?: string;
   description ?: string;
   technology ?: string[];
+  tools ?: string[];
   methodology ?: string[];
 
 }

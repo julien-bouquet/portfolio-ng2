@@ -1,4 +1,11 @@
 .container {
   padding-top: 15px;
-  background-color: rgba(192,192,192,1);
+
+  .title {
+    color: rgba(242,163,15,1);
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
 }

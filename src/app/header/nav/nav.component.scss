@@ -1,11 +1,15 @@
+$white : rgba(255,255,255,1);
+
 .content {
   background: rgba(0,0,0,0.2);
-  color: rgba(255,255,255,1);;
+  color: $white;
   display: flex;
   flex-direction: row;
 
   a {
+    color: $white;
     cursor: pointer;
+    text-decoration: none;
   }
 
   a:hover {
@@ -13,8 +17,13 @@
   }
 
   .left {
+    display: flex;
     flex: 1;
     margin: auto 25px;
+
+    h2 {
+      margin: 10px;
+    }
   }
 
   .right {
