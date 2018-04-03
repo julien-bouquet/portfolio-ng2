@@ -9,6 +9,7 @@ import * as moment from 'moment';
 })
 export class ExperiencesComponent implements OnInit {
 
+  public today = moment();
   public experiences: Experience[] = [
     {
       company: 'Kiabi',
@@ -26,7 +27,7 @@ export class ExperiencesComponent implements OnInit {
       '- Visions des statistiques globales du service <br />' +
       'Cette application est basée sur JIRA et Kiosk. Les équipes et les clients se basent sur ' +
       'cette dernière pour suivre l\'avancement de leurs développements et leurs projets. ',
-      technology: ['AngularJS', 'Angular', 'J2E', 'PostgreSQL', 'MyBatis'],
+      technology: ['Angular', 'AngularJS', 'J2E', 'PostgreSQL', 'MyBatis'],
       tools: ['Git', 'Sonar', 'Jenkins2', 'JIRA'],
       methodology: ['Srum', 'Kanban']
     },

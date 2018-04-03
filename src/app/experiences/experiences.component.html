@@ -1,6 +1,36 @@
-<div id="experiences" class="container">
-  <div class="title"> Experiences </div>
-  <div *ngFor="let experience of experiences; odd as isOdd;" >
-    <app-experience [experience]="experience" [isOdd]="isOdd"></app-experience>
-  </div>
+<div class="content">
+  <div class="title"> Experiences</div>
+  <section id="cd-timeline">
+    <div class="cd-timeline-block" *ngFor="let experience of experiences;">
+      <div class="cd-timeline-img">
+      </div>
+      <div class="cd-timeline-content">
+        <img src="{{ experience.urlLogo}}"/>
+        <h2>
+          {{ experience.company }}</h2>
+        <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            {{ experience.job }}
+          </span>
+          <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            {{ experience.startDate.format('MMM YYYY') }} - {{(experience.endDate.diff(today, 'd') === 0) ? 'En cours' : experience.endDate.format('MMM YYYY') }}
+          </span>
+        </div>
+        <p [innerHTML]="experience.description"></p>
+        <ul class="content-skills" *ngIf="experience.technology">
+          <li *ngFor="let techno of experience.technology"> {{ techno }}</li>
+        </ul>
+        <ul class="content-skills" *ngIf="experience.tools">
+          <li *ngFor="let tool of experience.tools"> {{ tool }}</li>
+        </ul>
+        <ul class="content-skills" *ngIf="experience.methodology">
+          <li *ngFor="let methodo of experience.methodology"> {{ methodo }}</li>
+        </ul>
+        <span class="cd-date">Jan 18</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+  </section> <!-- cd-timeline -->
 </div>
