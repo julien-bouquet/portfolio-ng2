@@ -10,6 +10,7 @@ import { FormationComponent } from './formations/formation/formation.component';
 import { FormationsComponent } from './formations/formations.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MatCardModule } from '@angular/material';
     NavComponent,
     ExperiencesComponent,
     FormationComponent,
-    FormationsComponent
+    FormationsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

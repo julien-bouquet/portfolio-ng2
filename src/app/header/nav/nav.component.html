@@ -5,9 +5,9 @@
     <h2><a href="#formations">Formations</a></h2>
   </div>
   <div class="right">
-    <a><i class="fa fa-linkedin"></i></a>
-    <a><i class="fa fa-github"></i></a>
-    <a><i class="fa fa-twitter"></i></a>
-    <a><i class="fa fa-stack-overflow"></i></a>
+    <a *ngIf="user.idLinkedIn"><i class="fa fa-linkedin"></i></a>
+    <a *ngIf="user.idGitHub"><i class="fa fa-github"></i></a>
+    <a *ngIf="user.idTwitter"><i class="fa fa-twitter"></i></a>
+    <a *ngIf="user.idStackOverFlow"><i class="fa fa-stack-overflow"></i></a>
   </div>
 </div>
