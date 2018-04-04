@@ -1,0 +1,12 @@
+<mat-card class="content">
+  <div class="container">
+    <div class="summary">
+      <span class="duration">{{ formation.startDate.format('YYYY') }}
+        <span *ngIf="formation.endDate"> - {{ formation.endDate.format('YYYY') }}</span>
+       </span>
+      <br/>
+      <div class="job">{{ formation.details }} - {{ formation.school }}</div>
+    </div>
+    <br />
+  </div>
+</mat-card>
