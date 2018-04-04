@@ -17,7 +17,8 @@ export class AppComponent {
     about: 'Je suis étudiant en ingénerie informatique en 5ème année à l\'EPSI Lille. ' +
     'Je suis en alternance en tant que développeur full-stack pour la société ECONOCOM.',
     idGitHub: 'julien-bouquet',
-    idTwitter: 'julien_bouquet'
+    idTwitter: 'julien_bouquet',
+    idLinkedIn: 'julien-bouquet-7b609891'
   };
 
 

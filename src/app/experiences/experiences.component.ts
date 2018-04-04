@@ -24,7 +24,7 @@ export class ExperiencesComponent implements OnInit {
       '- Gestion du planning des collaborateurs <br />' +
       '- Vision de la qualité de code (TU-Sonar) <br /> ' +
       '- Vision des saisies des utilisateurs <br /> ' +
-      '- Visions des statistiques globales du service <br />' +
+      '- Vision des statistiques globales du service. <br />' +
       'Cette application est basée sur JIRA et Kiosk. Les équipes et les clients se basent sur ' +
       'cette dernière pour suivre l\'avancement de leurs développements et leurs projets. ',
       technology: ['Angular', 'AngularJS', 'J2E', 'PostgreSQL', 'MyBatis'],
@@ -51,7 +51,7 @@ export class ExperiencesComponent implements OnInit {
       job: 'Développeur Web (Alternance)',
       summary: 'En prestation ',
       description: '- En prestation chez Kiabi depuis Septembre 2016 <br />' +
-      '- Prestation au CHRU de Lille (Septembre 2015- Septembre 2016)'
+      '- Prestation au CHRU de Lille (Septembre 2015- Septembre 2016).'
     },
     {
       company: 'CHRU de Lille',
