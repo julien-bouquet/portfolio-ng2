@@ -9,7 +9,7 @@ import { User } from './models/User';
 })
 export class AppComponent {
 
-  private user: User = {
+  user: User = {
     firstName: 'Julien',
     lastName: 'Bouquet',
     email: 'julien.bouquet@live.fr',
